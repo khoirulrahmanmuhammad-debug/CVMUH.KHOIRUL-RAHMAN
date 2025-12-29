@@ -37,7 +37,7 @@ function isiBiodata() {
         "Alamat: " + alamat + "<br>" +
         "Pendidikan: " + pendidikan;
 }
-fetch("updatepengalaman.csv")
+fetch("pengalaman.csv")
     .then(response => response.text())
     .then(data => tampilkanCSV(data));
 
@@ -97,4 +97,5 @@ window.addEventListener("scroll", () => {
     let scrollY = window.scrollY;
     document.body.style.backgroundPositionY = scrollY * 0.3 + "px";
 });
+
 
