@@ -1,4 +1,3 @@
-// JavaScript akan kita isi nanti
 function ubahPesan() {
     document.getElementById("pesan").innerHTML =
     "Terima kasih sudah mengunjungi website saya 😊";
@@ -97,5 +96,3 @@ window.addEventListener("scroll", () => {
     let scrollY = window.scrollY;
     document.body.style.backgroundPositionY = scrollY * 0.3 + "px";
 });
-
-
